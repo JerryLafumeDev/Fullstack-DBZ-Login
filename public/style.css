@@ -1,0 +1,37 @@
+html{
+  background: linear-gradient( orange, red);
+  height: 1300px;
+  overflow-y: scroll !important;
+}
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  font-family: 'Chango', cursive;
+}
+.jumbotron{
+  background: transparent;
+}
+img{
+  height: 200px;
+}
+.hide{
+  display: none;
+}
+h1, .title{
+  font-family: 'Chango', cursive;
+  color: aqua !important;
+}
+.btn.btn-default, button{
+  background: aqua !important;
+  /* border-radius: 20px !important; */
+  color: black !important;
+}
+ul{
+  list-style: none !important;
+}
